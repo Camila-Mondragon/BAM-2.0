@@ -2,17 +2,51 @@ header h1 {
     font-size: 50px; 
     color: aqua;
     text-align: center;
+    
 }
 .menu {
     display: flex;
     justify-content: center;
     list-style: none;
+    padding: 0;
 }
 .menu li {
     margin-right: 10px; 
 }
-.destacado
-{
+@keyframes fadeIn { /*para poder agregar una animación*/
+    0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.frase { 
+    text-decoration: antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+    font-family:sans-serif; 
+    font-size: 24px; 
+
+}
+
+/* Para agregar una línea horizontal entre secciones */
+.separador {
+    border-top: px solid #908ae2; /* Establece el grosor y el color de la línea */
+    margin: 20px 0; /* Ajusta el margen vertical para el espaciado */
+}
+
+
+ .custom-img {
+     max-width: 120%; /* Ajusta el ancho de la imagen al contenedor */
+    max-height: 300px; /* Define la altura máxima que desees */
+     width: auto; /* Para mantener la relación de aspecto */
+     display: block; /* Evita espacios no deseados */
+     margin: 100%; /* Centra la imagen horizontalmente en el contenedor */
+    text-align: center;
+
+}
+.text-bg-dark {
     text-align: center;
     text-decoration: double;
     color: plum;
@@ -22,7 +56,14 @@ header h1 {
     margin: 0px; 
     padding: 0px; 
     height: auto;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s; 
+    animation-iteration-count: 1; /* repeticion */
+    /*falta cambiar el color del texto que esta sobre la imagen y ajustar la imagen*/
 }
+
 .galeria {
     text-align: center;
     
@@ -59,3 +100,13 @@ header h1 {
     font-size: 14px;
     color: plum;
 }
+
+.custom-img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    max-height: 300px; /* Define la altura máxima que desees */
+    width: auto; /* Para mantener la relación de aspecto */
+    display: block; /* Evita espacios no deseados */
+    margin: 0 auto; /* Centra la imagen horizontalmente en el contenedor */
+}
+
+
