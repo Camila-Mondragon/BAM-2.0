@@ -1,34 +1,71 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(img/fondo\ c.jpg);
+    background-image: url(img/fondo.jpeg); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center ;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: aqua;
     color: plum;
     text-align: center;
-    padding: 5px
-}
+    padding: 5px 0; 
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
 
 header img {
     max-width: 100px;
+    position: absolute;
+    display: none;
+    
 }
 
 header h1 {
     font-size: 50px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .menu {
    display: flex;
+   list-style: none;
+   justify-content: center;
+   padding: 0;
+   position: absolute;
+   left: 0;
+   right: 0;
 }
 
 .menu li {
     margin-right: 10px;
+    text-align: center;
+ }
+
+ .menu a {
+text-decoration: none;
  }
 
  .frase {
@@ -41,7 +78,7 @@ header h1 {
 
   .catalogo { 
     text-align: center;
-    background-color: azure;
+    background-color: transparent;
     padding: 20px;
   }
   .catalogo ul {
