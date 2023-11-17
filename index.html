@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    
     <header>
         <img src="img/logo.png" alt="logo de casa de las flores">
         <h1>Casa de las flores</h1>
@@ -24,46 +25,96 @@
         <section class="frase"> 
             <p>¡Planta hoy tus sueños y dejalos crecer!</p>
         </section>
+        <section class="texto-adicional">
+            <div class="recuadro">
+                <p>"Las flores son el lenguaje silencioso de la naturaleza, capaces de transmitir emociones y alegría a través de sus delicados pétalos y exquisitos colores. Permítenos ser tu conexión con la belleza y el encanto de la naturaleza"</p>
+            </div>
+        </section>        
         <section class="catalogo">
             <h2>Catalogo de nuestras flores</h2>
             <ul>
                 <li>
-                    <img src="img/botsuana.png" alt="Imagen de ramo de botsuana">
-                    <h3>Ramo de botsuanas</h3>
-                    <Button>Elegir</Button>
+                    <img src="img/agapanto.jpeg" alt="Imagen agapanto">
+                    <h3>Agapanto</h3>
+                    <Button id="boton-elegir-agapanto">Elegir</Button>
                 </li>
                 <li>
-                    <img src="img/girasol.png" alt="Imagen de ramo de girasoles">
-                    <h3>Ramo de girasoles</h3>
-                    <button>Elegir</button>
+                    <img src="img/amaranto.jpeg" alt="Imagen de amaranto">
+                    <h3>Amaranto</h3>
+                    <button id="boton-elegir-amaranto">Elegir</button>
                 </li>
                 <li>
-                    <img src="img/lirios.png" alt="Imagen ramo de lirios">
-                    <h3>Ramo  de lirios</h3>
-                    <button>Elegir</button>
+                    <img src="img/lirio.jpeg" alt="Imagen ramo de lirios">
+                    <h3>Lirios</h3>
+                    <button id="boton-elegir-lirio">Elegir</button>
                 </li>
                 <li>
-                    <img src="img/margarita.png" alt="Imagen ramo de margarita">
-                    <h3>Ramo de margaritas</h3>
-                    <button>Elegir</button>
+                    <img src="img/margarita de otoño.jpeg" alt="Imagen margarita de otoño">
+                    <h3>Margarita de otoño</h3>
+                    <button id="boton-elegir-margarita">Elegir</button>
                 </li>
                 <li>
-                    <img src="img/rosa.png" alt="Imagen ramo de rosas">
-                    <h3>Ramo de rosas</h3>
-                    <button>Elegir</button>
+                    <img src="img/astrancia.jpeg" alt="Imagen de astrancia">
+                    <h3>Astrancia</h3>
+                    <button id="boton-elegir-astrancia">Elegir</button>
                 </li>
                 <li>
-                    <img src="img/siemprevivas.png" alt="Ramo de siempre vivas">
-                    <h3>Ramo de siempre vivas</h3>
-                    <button>Elegir</button>
+                    <img src="img/Rosal silvestre.jpeg" alt="Rosal silvestre">
+                    <h3>Rosal silvestre</h3>
+                    <button id="boton-elegir-rosal">Elegir</button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="img/cactus.jpeg" alt="Imagen de cactus">
+                    <h3>Cactus</h3>
+                    <Button id="boton-elegir-cactus">Elegir</Button>
+                </li>
+                <li>
+                    <img src="img/acuatica.jpeg" alt="Imagen de planta acuatica">
+                    <h3>Planta acuatica</h3>
+                    <button id="boton-elegir-cactus">Elegir</button>
+                </li>
+                <li>
+                    <img src="img/malva.jpeg" alt="Imagen de malvas">
+                    <h3>Malva</h3>
+                    <button id="boton-elegir-malva">Elegir</button>
+                </li>
+                <li>
+                    <img src="img/begonia.jpeg" alt="Imagen de begonias">
+                    <h3>Begonias</h3>
+                    <button id="boton-elegir-begonias">Elegir</button>
+                </li>
+                <li>
+                    <img src="img/trepadora.jpeg" alt="Imagen de planta trepadora">
+                    <h3>Planta trepadora</h3>
+                    <button id="boton-elegir-trepadora">Elegir</button>
+                </li>
+                <li>
+                    <img src="img/vivaz.jpeg" alt="Planta vivaz">
+                    <h3>Planta vivaz</h3>
+                    <button id="boton-elegir-plantavivaz">Elegir</button>
                 </li>
             </ul>
         </section>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <div id="boton-volver-arriba">↑ Volver hacia arriba</div>
     </main>
     <footer>
         <p>Gracias por visitar nuestra página</p>
         <p>&copy; 2023 La casa de las flores</p>
-    </footer>    
-
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
