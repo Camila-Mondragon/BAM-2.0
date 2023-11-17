@@ -1,10 +1,7 @@
 document.querySelectorAll('button[id^="boton-elegir"]').forEach(function(boton) {
     boton.addEventListener('click', function() {
-      // Obtener el nombre del ramo seleccionado
       var nombreRamo = this.parentNode.querySelector('h3').textContent;
-      // Agregar la clase CSS "seleccionado" al elemento que contiene el ramo seleccionado
       this.parentNode.classList.add('seleccionado');
-      // Mostrar un mensaje de confirmación con el nombre del ramo seleccionado
       alert('Has elegido el ramo de ' + nombreRamo);
     });
    });

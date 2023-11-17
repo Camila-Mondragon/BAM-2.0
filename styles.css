@@ -76,9 +76,9 @@ text-decoration: none;
     text-decoration: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 24px;
-    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
-    overflow: hidden; /* Oculta el texto que sobresale del contenedor */
-    animation: appear 3s steps(30) forwards; /* Ajusta la duración y los pasos según sea necesario */
+    white-space: nowrap; 
+    overflow: hidden;
+    animation: appear 3s steps(30) forwards; 
   }
   @keyframes appear {
     from {
@@ -158,15 +158,15 @@ text-decoration: none;
   font-size: 15px;
   margin-bottom: 10px;
   color: #333;
-  animation: cambioColor 2s infinite alternate; /* Agregar la animación aquí */
+  animation: cambioColor 2s infinite alternate; 
 }
 
 @keyframes cambioColor {
   0% {
-    color: rgb(148, 45, 143); /* Primer color, por ejemplo, azul */
+    color: rgb(148, 45, 143); 
   }
   100% {
-    color: palevioletred; /* Segundo color, por ejemplo, naranja */
+    color: palevioletred; 
   }
 
 }
@@ -212,4 +212,23 @@ text-decoration: none;
   bottom: 20px;
   right: 20px;
   z-index: 99;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .catalogo ul {
+    flex-direction: column;
+  }
+  
+  .columna {
+    width: 100%;
+  }
+  
+  .recuadro {
+    margin: 10px;
+  }
 }
