@@ -1,19 +1,19 @@
 ### Proyecto floreria
 <details>
-<summary>Descripcion</summery> <br>
-Se trata de una tienda online de una floreria 
-<details>
+<summary>DESCRIPCIÓN</summary> <br>
+El proyecto se trata de una tienda de flores
+</details>
 
 <br>
 
 <details>
-<summary> Tecnologias</summary> <br>
-HTML <br>
-CSS <br>
-JavaScript <br>
-Git/ github <br>
-<Details>
+<summary>TECNOLOGÍAS</summary> <bR>
+- HTML5 <br>
+- CSS3 <br>
+- JavaScript <br>
+- Git/Github
+</details>
 
 <br>
 
-<img src="img/Mi proyecto floreria.png">
+<img src="img/readme.png">
