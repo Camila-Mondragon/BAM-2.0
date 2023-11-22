@@ -6,8 +6,9 @@ body {
     background-position: center ;
     margin: 0;
     padding: 0;
-    
-}
+ 
+  }
+
 
 header {
     background-color: rgba(199, 241, 241, 0.534);
@@ -21,15 +22,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+  
   }
 
 header img {
     max-width: 150px;
     position: absolute;
     display: none;
-    
-}
+
+
+  }
 
 header h1 {
     font-size: 20px;
@@ -92,9 +94,7 @@ text-decoration: none;
   text-align: center;
 }
 
-.texto-adicional {
-  text-align: center;
-}
+
 
 .recuadro {
   background-color: #f0f0f0; 
@@ -114,27 +114,28 @@ text-decoration: none;
 }
 
 
-  .catalogo { 
+.catalogo { 
     text-align: center;
     background-color: transparent;
     padding: 20px;
-  }
-  .catalogo ul {
+}
+ 
+.catalogo ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-  }
+}
 
-  .catalogo img {
+.catalogo img {
     max-width: 100%;
-  }
+}
  
-  .seleccionado {
+.seleccionado {
     transform: scale(1.2);
     transition: 0.5s;
+}
 
-  }
-  .catalogo h2 {
+.catalogo h2 {
     font-size: 24px; 
     animation: bounce 1s infinite alternate; 
 }
@@ -166,7 +167,7 @@ text-decoration: none;
     color: rgb(148, 45, 143); 
   }
   100% {
-    color: palevioletred; 
+    color: rgb(209, 155, 192); 
   }
 
 }

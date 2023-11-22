@@ -7,7 +7,7 @@ El proyecto se trata de una tienda de flores
 <br>
 
 <details>
-<summary>TECNOLOGÍAS</summary> <bR>
+<summary>TECNOLOGÍAS</summary> <br>
 - HTML5 <br>
 - CSS3 <br>
 - JavaScript <br>
